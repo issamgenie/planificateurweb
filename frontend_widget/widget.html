@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Widget</title>
+    <link rel="stylesheet" href="widget.css">
+</head>
+<body>
+    <div id="chatbot-container" class="chatbot-container">
+        <div id="chatbot-header" class="chatbot-header">
+            <span id="chatbot-title">Chatbot</span>
+            <button id="chatbot-close-btn" class="chatbot-close-btn">&times;</button>
+        </div>
+        <div id="chatbot-messages" class="chatbot-messages">
+            <!-- Messages will be appended here -->
+        </div>
+        <div id="chatbot-input-container" class="chatbot-input-container">
+            <input type="text" id="chatbot-input" class="chatbot-input" placeholder="Tapez votre message...">
+            <button id="chatbot-send-btn" class="chatbot-send-btn">Envoyer</button>
+        </div>
+    </div>
+    <button id="chatbot-toggle-btn" class="chatbot-toggle-btn">Chat</button>
+
+    <script src="widget.js"></script>
+</body>
+</html>
+
